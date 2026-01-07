@@ -1,0 +1,9 @@
+curl -X PUT http://localhost:5000/review/1 \
+-H "Content-Type: application/json" \
+-d '{"review":"Excellent book"}'
+{
+  "message": "Review added successfully",
+  "reviews": {
+    "shreya": "Excellent book"
+  }
+}
