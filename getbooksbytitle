@@ -1,0 +1,10 @@
+curl http://localhost:5000/title/Things%20Fall%20Apart
+{
+  "books": [
+    {
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "reviews": {}
+    }
+  ]
+}
